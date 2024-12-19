@@ -1,4 +1,4 @@
-import Template from "./components/Template";
+import Template from "./components/template";
 import Itinformation from "./components/Itinformation";
 
 export default function Home() {
