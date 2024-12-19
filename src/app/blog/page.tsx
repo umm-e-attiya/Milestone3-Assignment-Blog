@@ -13,7 +13,7 @@ const Page = () =>{
                         <ul key={data.id}>
                            <Link href={`/blog/${data.id}`}>
                            <li>
-                            <img
+                            <Image
                             src={data.image}
                             alt={data.title}
                             width={300}

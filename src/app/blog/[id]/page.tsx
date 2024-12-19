@@ -1,6 +1,6 @@
 import { BlogData } from "../../../../Data/data"
 import Image from "next/image"
-import Comment from "@/app/components/comment"
+import Comment from "@/app/components/Comment"
 
 interface param{
     params:{
@@ -17,7 +17,11 @@ const Page = ({params} : param ) =>{
     return(
         <div>
         <div className="lg:ml-20 pt-20 text-black text-[30px]">
-          <img className="md:ml-[150px] lg:ml-[400px]" src={methodfind?.image} alt={methodfind?.title} width={500} height={400}/>
+          <Image alt="dynamicing" className="md:ml-[150px] lg:ml-[400px]" 
+          src={methodfind?.image || "/noting"} 
+           
+          width={500} 
+          height={400}/>
            <h1 className="text-black text-[40px] font-bold">{methodfind?.title}</h1>
             <p className="text-black text-[20px] lg:text-[20px]">{methodfind?.description}</p>    
         </div>
