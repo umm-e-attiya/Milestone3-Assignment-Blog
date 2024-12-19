@@ -22,7 +22,7 @@ import photo1 from "../../../public/photo1.jpg"
                   <p className="w-[350px] mt-2 md:w-[600px] lg:w-[800px] lg:ml-10">Its been said that data is what powers industries worldwide. That might be hyperbole, but few businesses large or small  can remain competitive without the ability to collect data and turn it into useful information. IT provides the means to develop, process, analyze, exchange, store and secure information.</p>
                    
                   <h1 className="font-bold mt-6 lg:ml-8 lg:text-[30px] ">What does information technology encompass?</h1>
-                  <p className="w-[350px] mt-2 md:w-[600px] lg:w-[800px] lg:ml-10">The IT department ensures that the organization's systems, networks, applications, data and information all connect and function properly. The IT team handles the following three major areas:
+                  <p className="w-[350px] mt-2 md:w-[600px] lg:w-[800px] lg:ml-10">The IT department ensures that the organizatios systems, networks, applications, data and information all connect and function properly. The IT team handles the following three major areas:
                     <ul>
                       <li>Deploying and maintaining business applications, services and infrastructure including servers, networks and storage.</li>
                       <li>Monitoring, optimizing and troubleshooting the performance of applications, services and infrastructure.</li>
