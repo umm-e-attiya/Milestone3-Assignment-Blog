@@ -19,11 +19,11 @@ const Page = ({params} : param ) =>{
         <div className="lg:ml-20 pt-20 text-black text-[30px]">
           <Image alt="dynamicing" className="md:ml-[150px] lg:ml-[400px]" 
           src={methodfind?.image || "/noting"} 
-           
-          width={500} 
-          height={400}/>
-           <h1 className="text-black text-[40px] font-bold">{methodfind?.title}</h1>
-            <p className="text-black text-[20px] lg:text-[20px]">{methodfind?.description}</p>    
+           width={300}
+           height={500}
+          />
+           <h1 className="text-black lg:text-[40px] font-bold">{methodfind?.title}</h1>
+            <p className="text-black w-[300px] text-[18px] lg:text-[20px]">{methodfind?.description}</p>    
         </div>
 
         <div>

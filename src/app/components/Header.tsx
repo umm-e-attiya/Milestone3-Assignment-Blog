@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className="bg-blue-600 bg-fixed w-full h-[60px] flex ">
             <div className="flex">
-                <div className="ml-4 pt-5  md:pt-5 lg:pt-5">
+                <div className="ml-4 pt-3  md:pt-5 lg:pt-5">
                     <h1 className="text-white">Information Technology (IT)</h1>
                 </div>
                 <div>
@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
             <div>
                        <Sheet>
-                        <SheetTrigger className="lg:hidden pt-5 pl-[200px]  md:pl-[600px]">
+                        <SheetTrigger className="lg:hidden pt-5 pl-[100px]  md:pl-[600px]">
                         <MenuIcon/>
                         </SheetTrigger>
                         <SheetContent className="bg-blue-500">
