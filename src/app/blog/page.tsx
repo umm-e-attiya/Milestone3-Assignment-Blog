@@ -6,14 +6,14 @@ import Link from "next/link"
 
 const Page = () =>{
     return(
-        <div className="mt-4 lg:mt-28 ">
+        <div className="mt-5 ml-6 lg:mt-28 ">
             <ul className="flex-wrap md:ml-5 md:flex md:gap-14">
                 {BlogData.map((data)=>{
                     return(
                         <ul key={data.id}>
                            <Link href={`/blog/${data.id}`}>
                            <li>
-                            <Image
+                            <Image 
                             src={data.image}
                             alt={data.title}
                             width={300}

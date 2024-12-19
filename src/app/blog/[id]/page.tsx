@@ -16,14 +16,14 @@ const Page = ({params} : param ) =>{
     const methodfind = BlogData.find((items) => items.id === convertnumber)
     return(
         <div>
-        <div className="lg:ml-20 pt-20 text-black text-[30px]">
+        <div className="ml-6 lg:ml-20 pt-20 text-black text-[30px]">
           <Image alt="dynamicing" className="md:ml-[150px] lg:ml-[400px]" 
           src={methodfind?.image || "/noting"} 
            width={300}
-           height={500}
+           height={600}
           />
            <h1 className="text-black lg:text-[40px] font-bold">{methodfind?.title}</h1>
-            <p className="text-black w-[300px] text-[18px] lg:text-[20px]">{methodfind?.description}</p>    
+            <p className="text-black w-[300px] text-[18px] lg:w-[1000px] lg:text-[20px]">{methodfind?.description}</p>    
         </div>
 
         <div>

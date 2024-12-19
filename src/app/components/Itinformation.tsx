@@ -18,7 +18,7 @@ import photo1 from "../../../public/photo1.jpg"
                   <h1 className="font-bold lg:ml-8 lg:text-[30px] ">What is Information Technology?</h1>
                   <p className="w-[300px] mt-2 md:w-[600px] lg:w-[800px] lg:ml-10">Information technology (IT) is the use of computers, storage, networking and other physical devices, infrastructure and processes to create, process, store, secure and exchange all forms of electronic data. Typically, IT is used in the context of business operations, as opposed to the technology used for personal or entertainment purposes. The commercial use of IT encompasses both computer technology and telecommunications.</p>
 
-                  <h1 className="font-bold w-[300px] mt-6 lg:ml-8 lg:text-[30px] ">Why is information technology important?</h1>
+                  <h1 className="font-bold w-[300px] lg:whitespace-nowrap mt-6  lg:ml-8 lg:text-[30px] ">Why is information technology important?</h1>
                   <p className="w-[300px] mt-2 md:w-[600px] lg:w-[800px] lg:ml-10">Its been said that data is what powers industries worldwide. That might be hyperbole, but few businesses large or small  can remain competitive without the ability to collect data and turn it into useful information. IT provides the means to develop, process, analyze, exchange, store and secure information.</p>
                    
                   <h1 className="font-bold mt-6 lg:ml-8 lg:text-[30px] ">What does information technology encompass?</h1>
